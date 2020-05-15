@@ -74,7 +74,7 @@ def send_Message(service,user_id,body,message_text_plain):
 def main():
     count=0
     total_to=''
-    sender = "nithinjoe5@gmail.com"
+    sender = "kewinjoey@gmail.com"
     subject = "Testing"
     message_text_html  = r'Hi<br/><b>Sample Email</b>'
     message_text_plain = "Hi\nPlain Email"
