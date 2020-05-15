@@ -23,7 +23,7 @@ time
 ## Note:
 
 The snippet, which sends the email is commented out in the program and replaced by sleep function to wait for half a second.
-During first run of the program, a new window will open up for Gmail authorization, it is authorized only once.
+During first run of the program, a new window will open up for Gmail authorization, Authorization is done only once.
 
 
 
