@@ -63,7 +63,7 @@ def send_Message(service,user_id,body,message_text_plain):
     try:
         #message_sent = (service.users().messages().send(userId=user_id, body=body).execute())
         #message_id = message_sent['id']
-        time.sleep(30)
+        time.sleep(0.5)
         #print (f'Message sent \n\n Message Id: {message_id}\n\n Message:\n\n {message_text_plain}')
     except errors.HttpError as error:
         print (f'An error occurred: {error}')
